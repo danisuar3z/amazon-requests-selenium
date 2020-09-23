@@ -6,6 +6,7 @@
 import sys
 from datetime import date
 import csv
+
 import req_scraper as req
 from selen_scraper import open_firefox, get_price, close_firefox
 from compare import compare_prices, alert_if_cheaper
